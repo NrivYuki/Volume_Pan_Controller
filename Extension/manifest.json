@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Volume_Pan_Controller",
+    "version": "1.0.0",
+    "permissions": [
+        "tabCapture",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Volume_Pan_Controller"
+    },
+    "background": {
+        "persistent": true,
+        "scripts": [ "background.js" ]
+    }
+}
